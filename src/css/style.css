@@ -20,7 +20,6 @@ body {
   font-size: 18px;
   font-weight: 300;
   color: #FFFFFF;
-  min-height: 200vh;
   overflow-x: hidden;
 }
 
@@ -144,8 +143,6 @@ header .header__links a {
 }
 
 .feature {
-  flex: 1;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,18 +155,30 @@ header .header__links a {
   padding-bottom: 2rem;
 }
 
+.feature__title {
+  padding-bottom: 3rem;
+}
+
+.feature__description {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
 .feature__image {
   height: 100%;
 }
 
 .feature__foot {
-  position: absolute;
-  bottom: -1rem;
-  transform: translateY(100%);
   width: 100%;
 }
 
 .feature__button {
   width: 100%;
+}
+
+footer {
+  background-color: #000000d9;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
