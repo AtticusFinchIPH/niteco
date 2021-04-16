@@ -1,0 +1,24 @@
+.hero {
+    position: relative;
+    background-image: url(../../images/herohob.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+    &__text {
+        position: absolute;
+        background-color: $black;
+        color: $yellow;
+        margin-top: 4.5rem;
+        margin-right: auto;
+        margin-bottom: 4.5rem;
+        margin-left: 8rem;
+        padding: 2rem;
+        height: calc(100% - 2*4.5rem);
+        width: 40rem;
+    }
+    &__button {
+        position: absolute;
+        bottom: 2rem;
+    }
+}

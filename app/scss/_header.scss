@@ -1,0 +1,15 @@
+header {
+    position: relative;
+    background-color: $black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .header__logo {
+        height: 2.5rem
+    }
+    .header__links {
+        color: $white-satured;
+        a {
+            margin-left: 3rem;
+        }
+    }
+}
